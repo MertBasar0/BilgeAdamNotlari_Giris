@@ -99,7 +99,7 @@ namespace RunTimeMayınTarlası
 
         private void btn_baslat_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("");
+
         }
     }
 }
