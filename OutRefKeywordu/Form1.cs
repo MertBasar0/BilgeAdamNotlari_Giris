@@ -17,9 +17,8 @@ namespace OutRefKeywordu
             InitializeComponent();
         }
         //Out Anahtar kelimesi
-        //Bir nethod içerisinde dışarıya birden fazla değer döndürmek isteyebilirsiniz "return" anahtar
-        //kelimesi fonksiyonlarda size yetmeyecektir. Void method ise zaten geriye değer döndürmezler.
-        //Bu bilineleri yıkmak için kullandığımız anahtar kelime
+        //Bir method içerisinde dışarıya birden fazla değer döndürmek isteyebilirsiniz "return" anahtar
+        //kelimesi fonksiyonlarda size yetmeyecektir. Void method ise zaten geriye değer döndürmez.
 
 
         void geriyeDegerDonen(int sayi, out double firlatilanSonuc)

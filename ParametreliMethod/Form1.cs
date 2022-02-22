@@ -27,6 +27,8 @@ namespace ParametreliMethod
         }
         void harfGetir(string kelime)
         {
+            //Textbox'tan girilen kelimeni son 3 harfini getiren metot.
+
             string tersKelime = "";
             for (int i = kelime.Length-1 ; i >= kelime.Length-3; i--)
             {
@@ -40,7 +42,7 @@ namespace ParametreliMethod
             this.BackColor = Color.FromName(renk);
         }
 
-        //Dışarıdan girilen iki sayının toplamnın küpünü messagebox'la gösterecek bir method yazınız.
+        //Dışarıdan girilen iki sayının toplamının küpünü messagebox'la gösterecek bir method yazınız.
         void toplaminkubu(int sayi1, int sayi2)
         {
             MessageBox.Show(Math.Pow((sayi1 + sayi2), 2).ToString());

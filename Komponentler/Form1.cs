@@ -20,7 +20,7 @@ namespace Komponentler
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             int karaktervaruzerinde =textBox1.Text.Length;
-            int fark = 450 - karaktervaruzerinde;
+            int fark = 150 - karaktervaruzerinde;
             label1.Text= fark.ToString();
         }
         //Üzerinden ayrıldığı anda arkaplan yazı rengini siyah yapın..

@@ -25,9 +25,9 @@ namespace MathSınıfı
             int sayi2 = Convert.ToInt32(textBox2.Text);
             int sayi3 = Convert.ToInt32(textBox3.Text);
 
-            deger = Math.Min(Math.Min(sayi1, sayi2),sayi3);
+            MessageBox.Show(Convert.ToString(deger = Math.Min(Math.Min(sayi1, sayi2),sayi3)));
 
-            listBox1.Items.Add(deger.ToString()); 
+            
         }
     }
 }
