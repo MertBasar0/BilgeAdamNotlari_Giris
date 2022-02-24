@@ -22,58 +22,51 @@ namespace SesliKontrol
             char[] sesliler = { 'a', 'e', 'ı', 'i', 'o', 'ö', 'u', 'ü' };
             string kelime = textBox.Text.ToLower();
             int sesliSayisi = 0;
+            bool sesliMi;
 
-
-            char harf;
-            for (char i = 'a'; i < 'z'; i++)
+            kelime = kelime.ToLower();
+            for (int i = 0; i < kelime.Length; i++)
             {
-                harf = i;
-                foreach (var item in sesliler)
+                sesliMi = sesliler.Contains(kelime[i]);
+                if (sesliMi == true)
                 {
-                    if (harf == item)
-                    {
-                        for (int k = 0; k < kelime.Length; k++)
-                        {
-                            if (kelime[k]==item)
-                            {
-                                listBox1.Items.Add(kelime[k]);
-                                sesliSayisi++;
-                            }
-                        }
-                    }
-                    else
-                    {
-                        for (int s = 0; s < kelime.Length; s++)
-                        {
-                            if (kelime[s] == harf)
-                            {
-                                listBox2.Items.Add(kelime[s]);
-                            }                          
-                        }
-                    }
+                    listBox1.Items.Add(kelime[i]);
+                    sesliSayisi++;
+                }
+                else
+                {
+                    listBox2.Items.Add(kelime[i]);
                 }
             }
-            MessageBox.Show($"{sesliSayisi} sesli harf vardır..");
+        }
 
-            //for (int i = 0; i < kelime.Length; i++)
-            //{
-            //    for (int k = 0; k < sesliler.Length; k++)
-            //    {
-            //        if (kelime[i]==sesliler[k])
-            //        {
-            //            listBox1.Items.Add(kelime[i]);
-            //            sesliSayisi++;
-            //        }
-            //    }
-            //    if(kelime[i] != sesliler[k])
-            //    {
-            //        listBox2.Items.Add(kelime[i]);
-            //    }
-            //}
-            //MessageBox.Show($"{sesliSayisi} sesli harf vardır..");
+        void sesliKontrolSwitchCase(TextBox textbox)
+        {
+            char [] karakterler = textbox.Text.ToLower().ToCharArray();
+            int sesliSayisi = 0;
+            for (int i = 0; i < karakterler.Length; i++)
+            {
+                switch (textbox.Text[i])
+                {
+                    case 'a':
+                    case 'e':
+                    case 'ı':
+                    case 'i':
+                    case 'o':
+                    case 'ö':
+                    case 'u':
+                    case 'ü':
+                        listBox1.Items.Add(textbox.Text[i]);
+                        sesliSayisi++;
+                        break;
 
-
-
+                    default:
+                        listBox2.Items.Add(textbox.Text[i]);
+                    break;
+                }
+                 
+            }
+            
         }
 
         private void btn_sesliKontrol_Click(object sender, EventArgs e)
