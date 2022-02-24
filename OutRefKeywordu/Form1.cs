@@ -43,7 +43,7 @@ namespace OutRefKeywordu
         }
 
 
-        #region Params Keyword,
+        #region Params Keyword
         //Dışarıdan methoda kaç parametre geleceği bilinmemektedir.
         //Ancak gelecek olan tüm parametrelerle bir takım işler yapmak zorundasınız..
         //Bu sayısız parametre tutma yolu params anahtar kelimesinde geçer..
