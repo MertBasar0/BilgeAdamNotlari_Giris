@@ -48,7 +48,7 @@ namespace OutRefKeywordu
         //Ancak gelecek olan tüm parametrelerle bir takım işler yapmak zorundasınız..
         //Bu sayısız parametre tutma yolu params anahtar kelimesinde geçer..
         //Params sizden bir dizi ister..
-
+         
 
 
 
@@ -67,6 +67,7 @@ namespace OutRefKeywordu
                 hangiDiziyeEklensin[i] = gelenDegerler[i];
             }
         }
+
 
 
         // örnekler => dizi, string, classlar, arrayler, list
