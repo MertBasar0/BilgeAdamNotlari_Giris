@@ -18,7 +18,7 @@ namespace SystemIO
             InitializeComponent();
         }
 
-        Boolean tekCift(int sayi)
+        bool tekCift(int sayi)
         {
             if (sayi % 2==0)
             {

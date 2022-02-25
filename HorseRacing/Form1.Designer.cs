@@ -47,9 +47,10 @@
             // 
             // btn_Sifirla
             // 
-            this.btn_Sifirla.Location = new System.Drawing.Point(668, 877);
+            this.btn_Sifirla.Location = new System.Drawing.Point(501, 713);
+            this.btn_Sifirla.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_Sifirla.Name = "btn_Sifirla";
-            this.btn_Sifirla.Size = new System.Drawing.Size(173, 53);
+            this.btn_Sifirla.Size = new System.Drawing.Size(130, 43);
             this.btn_Sifirla.TabIndex = 1;
             this.btn_Sifirla.Text = "Sıfırla";
             this.btn_Sifirla.UseVisualStyleBackColor = true;
@@ -57,9 +58,10 @@
             // 
             // btn_baslat
             // 
-            this.btn_baslat.Location = new System.Drawing.Point(901, 877);
+            this.btn_baslat.Location = new System.Drawing.Point(676, 713);
+            this.btn_baslat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_baslat.Name = "btn_baslat";
-            this.btn_baslat.Size = new System.Drawing.Size(173, 53);
+            this.btn_baslat.Size = new System.Drawing.Size(130, 43);
             this.btn_baslat.TabIndex = 2;
             this.btn_baslat.Text = "Başlat";
             this.btn_baslat.UseVisualStyleBackColor = true;
@@ -69,9 +71,10 @@
             // 
             this.btn_Finish.Dock = System.Windows.Forms.DockStyle.Right;
             this.btn_Finish.Enabled = false;
-            this.btn_Finish.Location = new System.Drawing.Point(2022, 0);
+            this.btn_Finish.Location = new System.Drawing.Point(1424, 0);
+            this.btn_Finish.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_Finish.Name = "btn_Finish";
-            this.btn_Finish.Size = new System.Drawing.Size(25, 930);
+            this.btn_Finish.Size = new System.Drawing.Size(19, 843);
             this.btn_Finish.TabIndex = 3;
             this.btn_Finish.Text = "Finish";
             this.btn_Finish.UseVisualStyleBackColor = true;
@@ -84,17 +87,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(778, 7);
+            this.label1.Location = new System.Drawing.Point(584, 6);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
+            this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 6;
-            this.label1.Text = "label1";
             // 
             // btn_BahisAl
             // 
-            this.btn_BahisAl.Location = new System.Drawing.Point(449, 877);
+            this.btn_BahisAl.Location = new System.Drawing.Point(337, 713);
+            this.btn_BahisAl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_BahisAl.Name = "btn_BahisAl";
-            this.btn_BahisAl.Size = new System.Drawing.Size(173, 53);
+            this.btn_BahisAl.Size = new System.Drawing.Size(130, 43);
             this.btn_BahisAl.TabIndex = 7;
             this.btn_BahisAl.Text = "Bahis Al";
             this.btn_BahisAl.UseVisualStyleBackColor = true;
@@ -103,9 +107,10 @@
             // pcp_Horse3
             // 
             this.pcp_Horse3.Image = global::HorseRacing.Properties.Resources.horse3__2_;
-            this.pcp_Horse3.Location = new System.Drawing.Point(12, 469);
+            this.pcp_Horse3.Location = new System.Drawing.Point(9, 381);
+            this.pcp_Horse3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pcp_Horse3.Name = "pcp_Horse3";
-            this.pcp_Horse3.Size = new System.Drawing.Size(271, 168);
+            this.pcp_Horse3.Size = new System.Drawing.Size(203, 136);
             this.pcp_Horse3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pcp_Horse3.TabIndex = 5;
             this.pcp_Horse3.TabStop = false;
@@ -113,9 +118,10 @@
             // pcp_Horse2
             // 
             this.pcp_Horse2.Image = global::HorseRacing.Properties.Resources.horse3__1_;
-            this.pcp_Horse2.Location = new System.Drawing.Point(4, 238);
+            this.pcp_Horse2.Location = new System.Drawing.Point(3, 193);
+            this.pcp_Horse2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pcp_Horse2.Name = "pcp_Horse2";
-            this.pcp_Horse2.Size = new System.Drawing.Size(279, 168);
+            this.pcp_Horse2.Size = new System.Drawing.Size(209, 136);
             this.pcp_Horse2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pcp_Horse2.TabIndex = 4;
             this.pcp_Horse2.TabStop = false;
@@ -123,9 +129,10 @@
             // pcp_Horse1
             // 
             this.pcp_Horse1.Image = global::HorseRacing.Properties.Resources.ebede532f6f5cf644a3fcf79d14b046c;
-            this.pcp_Horse1.Location = new System.Drawing.Point(12, 0);
+            this.pcp_Horse1.Location = new System.Drawing.Point(9, 0);
+            this.pcp_Horse1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pcp_Horse1.Name = "pcp_Horse1";
-            this.pcp_Horse1.Size = new System.Drawing.Size(271, 168);
+            this.pcp_Horse1.Size = new System.Drawing.Size(203, 136);
             this.pcp_Horse1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pcp_Horse1.TabIndex = 0;
             this.pcp_Horse1.TabStop = false;
@@ -133,9 +140,10 @@
             // 
             // btn_Cikis
             // 
-            this.btn_Cikis.Location = new System.Drawing.Point(1141, 877);
+            this.btn_Cikis.Location = new System.Drawing.Point(856, 713);
+            this.btn_Cikis.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_Cikis.Name = "btn_Cikis";
-            this.btn_Cikis.Size = new System.Drawing.Size(173, 53);
+            this.btn_Cikis.Size = new System.Drawing.Size(130, 43);
             this.btn_Cikis.TabIndex = 8;
             this.btn_Cikis.Text = "Çıkış";
             this.btn_Cikis.UseVisualStyleBackColor = true;
@@ -143,9 +151,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2047, 930);
+            this.ClientSize = new System.Drawing.Size(1443, 843);
             this.Controls.Add(this.btn_Cikis);
             this.Controls.Add(this.btn_BahisAl);
             this.Controls.Add(this.label1);
@@ -156,6 +164,7 @@
             this.Controls.Add(this.btn_Sifirla);
             this.Controls.Add(this.pcp_Horse1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pcp_Horse3)).EndInit();
