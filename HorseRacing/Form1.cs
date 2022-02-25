@@ -18,7 +18,7 @@ namespace HorseRacing
             InitializeComponent();
         }
         Random rnd;
-        SoundPlayer spkc = new SoundPlayer(@"C:\Users\Lenovo\Desktop\ConsolApp\MatematikselOperatörler\HorseRacing\Resources\spiker-tek-attigi-ati-anlatirsa.wav");
+        SoundPlayer spkc = new SoundPlayer(@"C:\Users\mertb\Source\Repos\MatematikselOperat-rler\HorseRacing\Resources\spiker-tek-attigi-ati-anlatirsa.wav");
         private void btn_baslat_Click(object sender, EventArgs e)
         {
             spkc.Play();
