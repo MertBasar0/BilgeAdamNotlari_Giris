@@ -13,7 +13,7 @@ namespace ConvertIslemleri
             //fonsiyonlar parantezle kullanılırlar..()
             //Bir veri tipindeki değişkeni, diğer veri tipine çevirmek için ihtiyacımız olan yardımcı bir sınıf vardır.
             //Bu sınıf convert sınıfı
-            //BUrada ekstra bir durumda daha söz konusu olabilir. Dış dünyadan gösterilecek olan ne varsa, bu değerler kesinlikle metinsel(string) veri tipi olacaktır. Dolayısıyla .net bize tipler arası geçişte kolaylık sağlar.
+            //BUrada ekstra bir durumda daha söz konusu olabilir.ÖM Dış dünyadan gösterilecek olan ne varsa, bu değerler kesinlikle metinsel(string) veri tipi olacaktır. Dolayısıyla .net bize tipler arası geçişte kolaylık sağlar.
 
 
             int sayi = 23;
